@@ -44,5 +44,5 @@ videos.forEach((video) => {
     `;
     // console.log(html);
 })
-console.log(videosHTML);
+console.log(videosHTML); 
 document.querySelector(".js-video-grid").innerHTML = videosHTML;
